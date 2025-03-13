@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', serif;
+    color: #590D22;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFB3C1;
+}
+.calculator {
+    background-color: #FF8FA3;
+    padding: 1.25rem;
+    border-radius: 1.5rem;
+}
+.input {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.25rem 0;
+}
+form .input input {
+    flex: 1;
+    text-align: right;
+    box-shadow: none;
+}
+input::placeholder {
+    font-size: 2rem;
+}
+.calculator form input {
+    width: 3.75rem;
+    height: 3.75rem;
+    border: 0;
+    outline: 0;
+    background-color: #FFF0F3;
+    padding: 1.25rem;
+    border-radius: 3rem;
+    margin: 10px;
+    font-size: 1rem;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.16),10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+.calculator form input:hover {
+    background-color: #FFCCD5;
+}
+#equal {
+    width: 9.37rem;
+    border-radius: 3rem;
+    background-color: #FF758F;
+}
